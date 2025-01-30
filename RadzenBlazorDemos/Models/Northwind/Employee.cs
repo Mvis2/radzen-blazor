@@ -112,5 +112,18 @@ namespace RadzenBlazorDemos.Models.Northwind
             get;
             set;
         }
+
+        public Gender Gender
+        {
+            get;
+            set;
+        } = Gender.NotSpecified;
+    }
+
+    public enum Gender
+    {
+        Man,
+        Woman,
+        NotSpecified
     }
 }

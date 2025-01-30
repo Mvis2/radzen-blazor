@@ -7,6 +7,7 @@ namespace RadzenBlazorDemos.Data
     {
         public static Employee[] Data = new Employee[] {
             new Employee() {
+                Gender = Gender.Woman,
                 EmployeeID = 1,
                 ReportsTo = 2,
                 LastName = "Davolio",
@@ -27,6 +28,7 @@ namespace RadzenBlazorDemos.Data
                 PhotoPath = ""
             },
             new Employee() {
+                Gender = Gender.Man,
                 EmployeeID = 2,
                 ReportsTo = null,
                 LastName = "Fuller",
@@ -47,6 +49,7 @@ namespace RadzenBlazorDemos.Data
                 PhotoPath = ""
             },
             new Employee() {
+                Gender = Gender.Woman,
                 EmployeeID = 3,
                 ReportsTo = 2,
                 LastName = "Leverling",
@@ -67,6 +70,7 @@ namespace RadzenBlazorDemos.Data
                 PhotoPath = ""
             },
             new Employee() {
+                Gender = Gender.Woman,
                 EmployeeID = 4,
                 ReportsTo = 2,
                 LastName = "Peacock",
@@ -87,6 +91,7 @@ namespace RadzenBlazorDemos.Data
                 PhotoPath = ""
             },
             new Employee() {
+                Gender = Gender.Man,
                 EmployeeID = 5,
                 ReportsTo = 2,
                 LastName = "Buchanan",
